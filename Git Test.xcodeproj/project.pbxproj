@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12630005197B756000490EC1 /* JLLPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 12630004197B756000490EC1 /* JLLPTest.m */; };
 		1263FFCF197B726300490EC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1263FFCE197B726300490EC1 /* Foundation.framework */; };
 		1263FFD1197B726300490EC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1263FFD0197B726300490EC1 /* CoreGraphics.framework */; };
 		1263FFD3197B726300490EC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1263FFD2197B726300490EC1 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12630003197B756000490EC1 /* JLLPTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLLPTest.h; sourceTree = "<group>"; };
+		12630004197B756000490EC1 /* JLLPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLLPTest.m; sourceTree = "<group>"; };
 		1263FFCB197B726300490EC1 /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1263FFCE197B726300490EC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1263FFD0197B726300490EC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +85,8 @@
 		1263FFC2197B726300490EC1 = {
 			isa = PBXGroup;
 			children = (
+				12630003197B756000490EC1 /* JLLPTest.h */,
+				12630004197B756000490EC1 /* JLLPTest.m */,
 				1263FFD4197B726300490EC1 /* Git Test */,
 				1263FFF3197B726300490EC1 /* Git TestTests */,
 				1263FFCD197B726300490EC1 /* Frameworks */,
@@ -253,6 +258,7 @@
 				1263FFE5197B726300490EC1 /* JLLPViewController.m in Sources */,
 				1263FFDF197B726300490EC1 /* JLLPAppDelegate.m in Sources */,
 				1263FFDB197B726300490EC1 /* main.m in Sources */,
+				12630005197B756000490EC1 /* JLLPTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
